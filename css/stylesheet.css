@@ -349,7 +349,7 @@ nav .icon-burger .line {
 
 /* Skills
 ------------------------------------*/
-.knowledge{
+.knowledge {
     background-color: #F3E9D2;
 }
 
@@ -357,7 +357,7 @@ nav .icon-burger .line {
 
     width: 100%;
     display: flex;
-    justify-content: center;  
+    justify-content: center;
 }
 
 .skill {
@@ -465,7 +465,7 @@ footer {
     margin-bottom: 0;
 }
 
-.form-container .last-words{
+.form-container .last-words {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -483,7 +483,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
-    
+
 }
 
 .form-container p {
@@ -553,13 +553,14 @@ footer {
         opacity: 0;
     }
 
+    .hero-image {
+        height: 100%;
+    }
+
     .hero-text {
         position: absolute;
         top: 100px;
-        left: 10%;
         align-items: center;
-        width: 60%;
-        height: 160px;
         color: #F7FFF7;
         display: flex;
         flex-direction: column;
@@ -567,8 +568,8 @@ footer {
     }
 
     .hero-text h1 {
+        margin-bottom: 10px;
         border: 4px solid #F7FFF7;
-        width: 25%;
         text-align: center;
         padding: 4px;
         font-size: 18px;
@@ -585,7 +586,7 @@ footer {
 
     .hero-text p {
         color: #F7FFF7;
-        font-size: 8px;
+        font-size: 10px;
         padding: 4px;
     }
 
@@ -594,27 +595,27 @@ footer {
         text-align: center;
     }
 
-.work-skills{
-    display: flex;
+    .work-skills {
+        display: flex;
         flex-direction: column;
         text-align: center;
-}
+    }
 
-.form-container .last-words{
-    display: flex;
+    .form-container .last-words {
+        display: flex;
         flex-direction: column;
         text-align: center;
-}
+    }
 
-.skill{
-    width: 100%;
-}
+    .skill {
+        width: 100%;
+    }
 
     .aboutMe {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .aboutMe-info{
+    .aboutMe-info {
         text-align: center;
     }
 
