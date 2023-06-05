@@ -198,7 +198,6 @@ header {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    align-items: center;
 }
 
 .hero-text h1 {
