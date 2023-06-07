@@ -354,7 +354,6 @@ nav .icon-burger .line {
 }
 
 .work-skills {
-
     width: 100%;
     display: flex;
     justify-content: center;
@@ -467,8 +466,9 @@ footer {
 
 .form-container .last-words {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     margin: 10px auto;
     align-items: center;
 }
@@ -486,8 +486,9 @@ footer {
 
 }
 
-.form-container p {
+.form-container .last-words p {
     color: #F7FFF7;
+    text-align: center;
 }
 
 .social-links {

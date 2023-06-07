@@ -282,7 +282,7 @@ header {
 
 .projects .projects-content .cards .card .card-info h4 {
     font-size: 24px;
-    counter-reset: #343434;
+    color: #343434;
 }
 
 .projects .projects-content .cards .card .card-info p {
@@ -292,14 +292,23 @@ header {
 }
 
 .projects .projects-content .cards .card .read-more {
-    text-decoration: none;
     display: inline-block;
     border-radius: 6px;
     background-color: #1B998B;
-    color: #F7FFF7;
     padding: 8px 16px;
     margin-left: 10px;
     margin-bottom: 20px;
+}
+
+.projects .projects-content .cards .card .read-more a {
+    text-decoration: none;
+    color: #F7FFF7;
+}
+
+.projects .projects-content .cards .card .read-more:hover {
+    background-color: #114b5f;
+    border: 1px solid #1B998B;
+    transition: 0.2s ease;
 }
 
 .projects .projects-content .cards .card .design-date p {
@@ -309,7 +318,7 @@ header {
     left: 0;
     display: inline-block;
     background-color: #1B998B;
-    color: #F7FFF7;
+    color: #343434;
     padding: 6px 15px;
 }
 
@@ -328,11 +337,11 @@ footer {
 }
 
 .form-container #contacts {
-    font-size: 24px;
-    font-weight: 700;
     margin: 0;
-    color: #F7FFF7;
     text-transform: uppercase;
+    font-size: 40px;
+    color: #F7FFF7;
+    text-align: center;
 }
 
 .form-container .my-form {
@@ -410,8 +419,9 @@ footer {
 
 .form-container .last-words {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     margin: 10px auto;
     align-items: center;
 }
@@ -429,8 +439,9 @@ footer {
 
 }
 
-.form-container p {
+.form-container .last-words p{
     color: #F7FFF7;
+    text-align: center;
 }
 
 .social-links {
